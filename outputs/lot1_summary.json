@@ -1,0 +1,33 @@
+{
+  "image": "data/samples/lot1.png",
+  "total": 5,
+  "stalls": [
+    {
+      "stall_id": "S1",
+      "status": "free",
+      "overlap": 0.0
+    },
+    {
+      "stall_id": "S2",
+      "status": "free",
+      "overlap": 0.079
+    },
+    {
+      "stall_id": "S3",
+      "status": "occupied",
+      "overlap": 0.206
+    },
+    {
+      "stall_id": "S4",
+      "status": "free",
+      "overlap": 0.0
+    },
+    {
+      "stall_id": "S5",
+      "status": "occupied",
+      "overlap": 0.419
+    }
+  ],
+  "occupied": 2,
+  "free": 3
+}
