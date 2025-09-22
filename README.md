@@ -30,3 +30,25 @@ python3 src/infer.py --image data/samples/lot1.png \
     --model yolov8m.pt \
     --overlap_thresh 0.10 \
     --outdir outputs
+```
+## Project Structure
+```
+
+ParkingOccupancyDetector/
+├── data/
+│   ├── samples/
+│   └── stalls/
+├── outputs/
+├── src/
+│   ├── infer.py
+│   └── utils.py
+└── requirements.txt
+```
+
+---
+
+## Next Steps
+- [ ] Add live camera support  
+- [ ] Deploy on a small web server (Flask/FastAPI)  
+- [ ] Integrate with Rutgers parking data for **real-time** availability  
+- [ ] Make an iOS/Android companion app
